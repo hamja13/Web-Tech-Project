@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Center the content */
+.center {
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+/* Add some spacing to paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Style the container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add some spacing to the top */
+.margin-top {
+    margin-top: 20px;
+}

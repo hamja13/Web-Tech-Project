@@ -1,0 +1,55 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #0e0b0b;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the links */
+h1 a {
+    color: #140b0b;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+/* Style the links on hover */
+h1 a:hover {
+    color: #0400ff;
+}
+
+/* Style the horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #1f0f0f;
+    margin: 20px 0;
+}
+
+/* Add a bit of spacing to paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Center align content */
+.center {
+    text-align: center;
+}
